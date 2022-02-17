@@ -1,0 +1,73 @@
+<html>
+
+<head>
+  <title>Tugas CSS 1</title>
+  <style>
+    /* latin-ext */
+    @font-face {
+      font-family: 'Slabo 27px';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/slabo27px/v11/mFT0WbgBwKPR_Z4hGN2qgxED1XJ7.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    /* latin */
+    @font-face {
+      font-family: 'Slabo 27px';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/slabo27px/v11/mFT0WbgBwKPR_Z4hGN2qgx8D1Q.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    body {
+      width: 350px;
+    }
+
+    div {
+      font-family: 'Slabo 27px', 'serif';
+      font-size: 20px;
+      color: white;
+      text-align: center;
+
+    }
+
+    div:nth-child(1) {
+      background-color: red;
+      width: 100px;
+      height: 100px;
+      float: left;
+
+    }
+
+    div:nth-child(2) {
+      background-color: blue;
+      width: 100px;
+      box-sizing: border-box;
+      margin-left: 150px;
+      float: right;
+    }
+
+    div:nth-child(3) {
+      background-color: green;
+      width: 350px;
+      box-sizing: border-box;
+      padding: 0 10px;
+      border-radius: 20px;
+      height: 350px;
+      float: left;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div>Saya adalah box red berukuran 100 px</div>
+  <div>Saya adalah box blue berukuran 100 px</div>
+  <div>Saya adalah box green berukuran 350 px </div>
+
+</body>
+
+</html>
